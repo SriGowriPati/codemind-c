@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int inches;
-    scanf("%d",&inches);
-    printf("%.2f",inches *2.54);
-    return 0;
+    int a;
+    float cm;
+    scanf("%d",&a);
+    cm=2.54*a;
+    printf("%0.2f",cm);
 }
+
