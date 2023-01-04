@@ -12,7 +12,7 @@ int main()
     }
     if(n==s)
     {
-        printf("True");
+       printf("True");
     }
     else
     {
