@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,q,i,r,wt=1,s=0;
+    int n,q,r,i,wt=1,s=0;
     scanf("%d",&n);
     q=n;
     while(q!=0)
@@ -23,4 +23,5 @@ int main()
     {
         printf("The number %d is not a strong number",n);
     }
+    
 }
